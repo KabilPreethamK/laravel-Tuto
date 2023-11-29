@@ -1,0 +1,17 @@
+body{
+    background: gray;
+    font-family: monospace;
+    max-width: 600px;
+    margin: auto;
+    color: bisque;
+    font-style: italic;
+    font-size: 150%;
+}
+p{
+    line-height: 1.7;
+}
+article + article{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid #c5c5c5;
+}
